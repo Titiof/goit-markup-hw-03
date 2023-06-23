@@ -1,0 +1,232 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.subtitile {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==========HEADER========== */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.logo-studio-dark {
+  color: #f4f4fd;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+/* ==========/HEADER========== */
+
+/* ==========Hero section========== */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.heroimage {
+  background-color: #2e2f42;
+}
+
+/* ==========BUTTON MENU========== */
+.button-menu {
+  list-style: none;
+}
+
+.modal-button-image {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.modal-button-image:hover,
+.modal-button-image:focus {
+  background-color: #404bbf;
+}
+
+.modal-button {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* ==========/BUTTON MENU========== */
+
+/* ==========Hero section========== */
+.advantage-list {
+}
+
+.advantage-item {
+  background-color: #ffffff;
+}
+
+.advantage-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantage-item-p {
+  color: #434455;
+}
+/* ==========/Hero section========== */
+
+/* ==========Workers========== */
+
+.workers {
+  background-color: #f4f4fd;
+}
+
+.workers-list {
+  background-color: #f4f4fd;
+}
+
+.workers-item {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.workers-pic {
+}
+
+/* ==========/Workers========== */
+
+/* ==========Production========== */
+
+.production {
+}
+
+.production-list {
+}
+
+.production-item {
+}
+
+.production-pic {
+}
+
+/* ==========/Production========== */
+
+/* ==========Portfolio Images========== */
+
+.gallery {
+  list-style: none;
+}
+
+.gallery-item {
+  text-decoration: none;
+}
+
+.gallery-pic {
+}
+
+/* ==========/Portfolio Images========== */
+
+/* ==========FOOTER========== */
+
+.footer {
+  background-color: #2e2f42;
+}
+.background-dark-text {
+  color: #f4f4fd;
+}
+
+.text-center {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* ==========/FOOTER========== */
