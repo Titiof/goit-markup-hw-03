@@ -16,6 +16,10 @@
 
 body {
   font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--body-text-slate);
   background-color: var(--header-team-card-background);
 }
@@ -25,16 +29,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-}
-
+h6,
 p {
   margin: 0;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 img {
@@ -222,8 +219,7 @@ a {
   color: var(--body-text-slate);
 }
 
-/* ==========//* ==========SECTION 1========== */
-========== */
+/* ==========SECTION 1========== */
 
 /* ==========Hero section========== */
 
