@@ -118,11 +118,11 @@ button {
 .menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -239,12 +239,12 @@ button {
 
 .advantage-item {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--header-team-card-background);
 }
 
 .advantage-item-name {
   padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .advantage-item-title {
