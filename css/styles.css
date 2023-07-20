@@ -80,13 +80,18 @@ button {
 .page-header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--accent-hairlines-subtle-backgrounds);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-link-padding {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav {
@@ -121,7 +126,6 @@ button {
 }
 
 .menu-list-item {
-  padding: 24px 0 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -296,7 +300,7 @@ button {
   display: flex;
   gap: 24px;
 
-  background-color: #f4f4fd;
+  background-color: var(--light-mode-backgrounds);
   margin-top: 72px;
 }
 
