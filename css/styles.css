@@ -12,6 +12,8 @@
   --dark-overlays-shadows-headings: #2e2f42;
   --pressed-state-cta: #404bbf;
   --cta-focused-active-links: #4d5ae5;
+  --column-indent: 24px;
+  --column-items: 3;
 }
 
 body {
@@ -327,8 +329,20 @@ button {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  gap: 48px 24px;
+}
+
+.gallery-item {
+  flex-basis: calc(
+    (100% - var(--column-indent) * calc(var(--column-items) - 1)) /
+      var(--column-items)
+  );
+}
+
+.gallary-content {
+  padding: 32px 16px;
+  border: 1px solid var(--accent-hairlines-subtle-backgrounds);
+  border-top: none;
 }
 
 /* ==========/Portfolio Images========== */
